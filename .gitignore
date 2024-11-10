@@ -1,0 +1,16 @@
+# Ignore swap files, backup files, and session files
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# Ignore Neovim cache or data directories, if any
+.cache/
+session/
+undodir/
+
+# Ignore lock files that may change often
+lazy-lock.json
+packer_compiled.lua  # if using packer
+
